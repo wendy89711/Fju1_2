@@ -27,7 +27,7 @@ public class HashSetDomo {
 		if(hset.contains(findSt1))
 			System.out.println(" "+ findSt1 +"字串存在集合物件中");
 		else {
-			System.out.println(" "+ findSt1 +"字串部在集合物件中");
+			System.out.println(" "+ findSt1 +"字串不在集合物件中");
 		}
 		System.out.println("輸入要刪除的字串:");
 		String findSt2 = keyin.nextLine();
