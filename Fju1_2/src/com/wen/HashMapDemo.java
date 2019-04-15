@@ -25,7 +25,9 @@ public class HashMapDemo {
 			System.out.println("\"+name+\"+已存在，不接受更改。");
 		}else {
 			hmap.put(name, "律師");
-		}System.out.println("\n集合內容:");
+		}System.out.println("移除\"周六圖\"");
+		hmap.remove("周六圖");
+		System.out.println("\n集合內容:");
 		for(Map.Entry e : hmap.entrySet()) {
 			System.out.println(e.getKey()+"="+e.getValue());
 		}
