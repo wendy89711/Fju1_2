@@ -7,16 +7,16 @@ import java.util.Scanner;
 public class M26 {
 
 	public static void main(String[] args) {
-		Map<String, String> buy =  new HashMap<>();
+		Map<String, String> buy = new HashMap<>();
 		Scanner sca = new Scanner(System.in);
 		String thing;
 		String amount;
 		int i = 1;
-		while (i>=1) {
-			System.out.println("新增代購物：");
+		while(i>=1) {
+			System.out.println("Please enter item name:");
 			thing = sca.nextLine();
 			if(!"q".equals(thing)) {
-				System.out.println("新增代購物數量：");
+				System.out.println("Please enter quantity:");
 				amount = sca.nextLine();
 				buy.put(thing, amount);
 				System.out.println(buy);
@@ -24,7 +24,5 @@ public class M26 {
 				break;
 			}
 		}
-
 	}
-
 }
