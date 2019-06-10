@@ -26,13 +26,20 @@ public class June03 {
 		list.add(3);
 		list.add(9);
 		list.add(3);
-		System.out.println(list.get(3));
+		list.add("Test");
+		System.out.println(list.get(4));
 		List<Integer> lists = new ArrayList<>();
 		lists.add(5);
 		lists.add(3);
 		lists.add(9);
 		lists.add(3);
 		System.out.println(list.get(0));
+		
+		Set<String> set1 = new HashSet<>();
+		set.add("Apple");
+		set.add("Jack");
+		System.out.println(set.contains("Jack"));
+		
 		
 	}
 }
